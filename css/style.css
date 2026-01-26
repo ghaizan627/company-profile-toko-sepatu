@@ -157,6 +157,7 @@ body {
   color: var(--lima-neon);
   font-weight: bolder;
 }
+/* other products */
 .other-products {
   color: var(--lima-neon);
   background-color: var(--hitam-pekat);
@@ -338,7 +339,6 @@ footer .footer-text h2 span {
   .navbar nav {
     margin-right: 0;
     grid-area: nav;
-    /* display: flex; */
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -392,6 +392,7 @@ footer .footer-text h2 span {
     padding: 50px;
   }
 }
+/* handphone landscape */
 @media screen and (min-width: 480px) and (max-width: 767px) {
   footer {
     grid-template-columns: repeat(2, 1fr);
