@@ -393,7 +393,7 @@ footer .footer-text h2 span {
   }
 }
 /* handphone landscape */
-@media screen and (min-width: 480px) and (max-width: 767px) {
+@media screen and (min-width: 481px) and (max-width: 767px) {
   footer {
     grid-template-columns: repeat(2, 1fr);
   }
